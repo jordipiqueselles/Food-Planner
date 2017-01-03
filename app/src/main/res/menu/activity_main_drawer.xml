@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/hoy"
+            android:icon="@drawable/today"
+            android:title="Avui" />
+
+        <item
+            android:id="@+id/menuSemanal"
+            android:icon="@drawable/menu"
+            android:title="Menu setmanal" />
+
+        <item
+            android:id="@+id/listaCompra"
+            android:icon="@drawable/shopping"
+            android:title="Llista compra" />
+
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/settings"
+            android:title="Settings" />
+
+    </group>
+
+</menu>
